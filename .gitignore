@@ -1,0 +1,23 @@
+data/raw/
+data/processed/*.csv
+models/*.pkl
+
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore virtual environment directories
+venv/
+env/
+# Ignore log files
+logs/
+# Ignore temporary files
+*.tmp
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore IDE specific files
+.vscode/
+.idea/
+# Ignore Python cache files
+__pycache__/
+*.pyc
