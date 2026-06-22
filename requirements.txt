@@ -1,6 +1,7 @@
 pandas
 numpy
 scikit-learn
+scipy
 matplotlib
 seaborn
 sentencepiece
@@ -9,3 +10,5 @@ transformers
 tqdm
 nltk
 openpyxl
+gensim
+umap-learn
