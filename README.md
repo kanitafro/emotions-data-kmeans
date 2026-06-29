@@ -33,14 +33,15 @@ python -m experiments.method_F
 
 # Experiments (6 methods)
 
-A-D = TF-IDF + K-Means (different sampling strategies)
-* Method A: single random sampling (21000 random samples)
-* Method B: repeated sampling (10 iterations of 21000 random samples)
-* Method C: stratified sampling (21000 randomsamples with natural distribution across 7 true labels)
-* Method D: balanced sampling (7 x 3000 samples)
+A-D = TF-IDF + K-Means (4 different sampling strategies)
+* **Method A**: single random sampling (21000 random samples)
+* **Method B**: repeated sampling (10 iterations of 21000 random samples)
+* **Method C**: stratified sampling (21000 randomsamples with natural distribution across 7 true labels)
+* **Method D**: balanced sampling (7 x 3000 samples)
 
-
-
+E-F = comparison methods
+* **Method E**: Word2Vec + KMeans
+* **Method F**: TF-IDF + UMAP + DBSCAN
 
 # Results
 

@@ -359,7 +359,7 @@ def test_out_of_sample_validation(df, samples_per_label=3000, test_size=10000,
 # METHOD D: COMPLETE EXECUTION
 # =============================================================================
 
-def run_method_d_full_analysis(df, samples_per_label=3000, n_clusters=7):
+def run_method_d(df, samples_per_label=3000, n_clusters=7):
     """
     Run complete Method D analysis including all three scalability tests.
     """
@@ -421,12 +421,8 @@ def run_method_d_full_analysis(df, samples_per_label=3000, n_clusters=7):
     return results
 
 
-# =============================================================================
-# USAGE EXAMPLE
-# =============================================================================
-
 if __name__ == "__main__":
     dataset = pd.read_csv(DATASET_PATH)
     
     # Run Method D complete analysis
-    results = run_method_d_full_analysis(dataset, samples_per_label=3000, n_clusters=7)
+    results = run_method_d(dataset, samples_per_label=3000, n_clusters=7)
