@@ -13,7 +13,7 @@
 pip install -r requirements.txt
 ```
 
-2. **Data acquisition and preparation**: Follow instructions given in *data/ReadMe.md*
+2. **Data acquisition and preparation**: Follow instructions given in *`data/ReadMe.md`*
 
 3. **Run experiments**
 ```
